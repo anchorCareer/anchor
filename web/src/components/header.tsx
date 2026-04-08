@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export function Header() {
+export default function Header() {
   return (
     <div>
       <div className="h-screen w-full">
