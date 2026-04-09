@@ -53,6 +53,46 @@ function Page() {
           </div>
         </div>
       </div>
+      <div className="bg-[#efefef]">
+        <div className="p-4">
+          <div className="text-5xl m-4">お知らせ</div>
+        </div>
+      </div>
+      <div className="bg-[#efefef]">
+        <div className="p-4">
+          <div className="text-5xl m-4">体験者の声</div>
+        </div>
+      </div>
+      <div className="bg-[#efefef]">
+        <div className="p-4">
+          <div className="text-5xl m-4">お問合せ</div>
+          <div className="text-2xl m-4">各種サービス、料金等のお問い合わせ</div>
+        </div>
+      </div>
+      <div className="bg-linear-to-b from-[#efefef] to-[#d8f4ef]">
+        <div className="p-4">
+          <div className="text-5xl m-4">会社概要</div>
+          <div className="flex justify-between items-center">
+            <div className="text-xl flex-col m-4 w-120">
+              会社名：１２３株式会社 所在地：愛知県あま市七宝町伊福新家西84
+              代表者：代表取締役　井藤瑞栄 連絡先：info@anchor-career.com
+              SNS:：@＊＊＊
+            </div>
+            <div className="text-xl flex-col w-250 m-4">
+              123株式会社は、人の脳と認知の仕組みに着目し、「働きづらさ」や「生きづらさ」を抱える人が、無理なく社会とつながれる仕組みづくりを行っています。
+              前身である株式会社if
+              meから飲食事業を移行し、現在は以下の領域を横断した事業を展開しています。
+              ▶123DISH　 飲食事業
+              障害のある方への仕込み業務の提供や、障害の有無に限らず、働きづらさを抱える方の雇用を積極的に行う就労機会創出型モデル。
+              ▶anchor　研修・人材育成事業
+              認知科学・心理学を活用した伴走型プログラムにより、
+              自分で整え、立て直せる力を育む支援。
+              すべての事業に共通するのは、「支援」ではなく「構造を変えることで、人が自然に力を発揮できる状態をつくる」という考え方。
+              その人らしさが活きる場になる社会を目指しています。
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
