@@ -1,9 +1,10 @@
 import Header from "@/components/header";
 import Crappy from "@/components/crappy";
+import NotePosts from "@/components/card";
 
 function Page() {
   return (
-    <div>
+    <div className="text-black">
       <Header />
       <Crappy />
       <div className="bg-[#efefef]">
@@ -56,6 +57,7 @@ function Page() {
       <div className="bg-[#efefef]">
         <div className="p-4">
           <div className="text-5xl m-4">お知らせ</div>
+          <NotePosts />
         </div>
       </div>
       <div className="bg-[#efefef]">
@@ -66,6 +68,13 @@ function Page() {
       <div className="bg-[#efefef]">
         <div className="p-4">
           <div className="text-5xl m-4">お問合せ</div>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSe0rkhjqJ16k8z7Yt5Ijd_R6wNCtYeOlG3GKwPSjgiXEbGYCA/viewform?embedded=true"
+            width="640"
+            height="1900"
+          >
+            読み込んでいます…
+          </iframe>
           <div className="text-2xl m-4">各種サービス、料金等のお問い合わせ</div>
         </div>
       </div>
@@ -73,12 +82,12 @@ function Page() {
         <div className="p-4">
           <div className="text-5xl m-4">会社概要</div>
           <div className="flex justify-between items-center">
-            <div className="text-xl flex-col m-4 w-120">
+            <div className="text-xl flex-col m-4 w-120 ">
               会社名：１２３株式会社 所在地：愛知県あま市七宝町伊福新家西84
               代表者：代表取締役　井藤瑞栄 連絡先：info@anchor-career.com
               SNS:：@＊＊＊
             </div>
-            <div className="text-xl flex-col w-250 m-4">
+            <div className="text-xl w-250 m-4 ">
               123株式会社は、人の脳と認知の仕組みに着目し、「働きづらさ」や「生きづらさ」を抱える人が、無理なく社会とつながれる仕組みづくりを行っています。
               前身である株式会社if
               meから飲食事業を移行し、現在は以下の領域を横断した事業を展開しています。
